@@ -48,9 +48,28 @@ header{
 
 }
 .introduction{
-	
+	display: flex;
 	background-color: lightgrey;
-	
+	justify-content: center;
+}	
+.intro_title{
+	font-size: 25px;
+	color: darkblue;
+	font-weight: bold;
+}
+
+.intro_text{
+	display: flex;
+	flex-direction: column;
+	max-width: 500px;
+}
+
+.intro_video{
+	margin: auto;
+	padding: auto;
+}
+
+
 }
 h1,p,a{
 	max-width: 1000px;
@@ -110,9 +129,19 @@ form{
 
 .icon_field{
 	max-width: 1000px;
-	columns: 3 ;
-	grid-template-columns: 3 333px;
+	display: flex;
+	justify-content: center;
+	justify-content: space-between;
+	justify-content: flex-start;
+	/*columns: 3 ;
+	grid-template-columns: 3 333px;*/
 	margin: auto;
 	padding-top: 15px;
+
+}
+
+.article{
+	margin: 5px;
+	text-align: center;
 
 }
