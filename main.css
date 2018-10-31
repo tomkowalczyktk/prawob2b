@@ -9,9 +9,12 @@ ol{
 
 
 }
+.header{
+	display: flex;
+	align-items: center;
+}
 header{
-	background-color: rgb(28, 158, 184);
-	clear: both;
+	background-color: rgb(42, 91, 107);
 	border-bottom: 3px solid black;
 	box-shadow: 2px 0px 1px rgb(49, 52, 60);
 }
@@ -20,33 +23,35 @@ header{
     clear: both;
     display: table;
 }
-.logo{
-	width: 100px;
-	height: 50px;
-	padding: auto;
-	background-color: #fff;
-}
+
 .container{
+	display: flex;
+	align-items: center;
 	max-width: 1000px;
 	margin: auto;
 
 }
+.logo, .navigation{
+	flex: 1;
+}
 .navigation{
 	list-style: none;
 	padding: 0;
-	clear: both;
-
-
+	display: flex;
+	justify-content: flex-end;
+	
 }
-.navigation li{
+.navigation li a{
+	text-decoration: none;
 	float: right;
 	background-color: white;
+	color:rgb(42, 91, 107);
 	margin: 7px;
 	border: 2px solid black;
 	border-radius: 4px;
 	box-shadow: 2px 2px 1px rgb(49, 52, 60);
-
 }
+
 .introduction{
 	display: flex;
 	background-color: lightgrey;
@@ -111,7 +116,6 @@ span{
 			max-width: 500px;
 			}
 
-
 			.imail_form{
 			max-width: 500px;
 			margin: auto;
@@ -130,8 +134,6 @@ span{
 				box-shadow: 2px 2px 1px rgb(49, 52, 60);
 				}
 
-			
-
 .presentation {
 	font: 17px bold ;
 	color: darkblue;
@@ -147,11 +149,8 @@ span{
 		justify-content: center;
 		justify-content: space-between;
 		justify-content: flex-start;
-		/*columns: 3 ;
-		grid-template-columns: 3 333px;*/
 		margin: auto;
 		padding-top: 15px;
-
 	}
 
 	.article{
