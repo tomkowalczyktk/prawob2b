@@ -75,7 +75,7 @@ header{
 }
 h1,p,a{
 	max-width: 1000px;
-	/*margin: auto;*/
+	margin: auto;
 }
 span{
 	font-weight: bold;
