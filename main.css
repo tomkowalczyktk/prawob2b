@@ -62,6 +62,8 @@ header{
 	display: flex;
 	flex-direction: column;
 	max-width: 500px;
+	margin-right: 30px;
+	padding-left: 0px;
 }
 
 .intro_video{
@@ -73,50 +75,62 @@ header{
 }
 h1,p,a{
 	max-width: 1000px;
-	margin: auto;
+	/*margin: auto;*/
 }
 span{
 	font-weight: bold;
 }
-.navigation_email{
-
+.email_field{
 	background-color: orange;
-	columns: 2 500px;
 	height: 40px;
 	margin: auto;
-	padding-top: 15px;
+	padding-top: auto;
+	display: flex;
+	justify-content: center;
 
-}
+	}
+	.conteiner_email{
+		max-width: 1000px;
+		margin: auto;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
 
-.question{
-	color: white;
-	font-weight: bold;
-	font-size: 15px;
-	max-width: 495px;
-	padding-left: 70px;
-	margin-right: 0px;
-}
+		.navigation_email{
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		}
 
-form{
-	max-width: 1000px;
-	margin: auto;
-	margin-left: 25px;
+			.question{
+			color: white;
+			font-weight: bold;
+			font-size: 15px;
+			margin-left:  0px;
+			max-width: 500px;
+			}
 
-}
-.email_input{
-	color: grey;
-	max-width: 500px;
 
-}
+			.imail_form{
+			max-width: 500px;
+			margin: auto;
+			margin-left: 25px;
+			}
 
-.email_input_button{
-	color: white;
-	background-color: darkblue;
-	border: 0.5px solid black;
-	border-radius: 4px;
-	box-shadow: 2px 2px 1px rgb(49, 52, 60);
+				.email_input{
+					color: grey;
+				}
 
-}
+				.email_input_button{
+				color: white;
+				background-color: darkblue;
+				border: 0.5px solid black;
+				border-radius: 4px;
+				box-shadow: 2px 2px 1px rgb(49, 52, 60);
+				}
+
+			
 
 .presentation {
 	font: 17px bold ;
@@ -125,23 +139,23 @@ form{
 	padding: auto;
 	text-align: center;
 	
-}
+	}
 
-.icon_field{
-	max-width: 1000px;
-	display: flex;
-	justify-content: center;
-	justify-content: space-between;
-	justify-content: flex-start;
-	/*columns: 3 ;
-	grid-template-columns: 3 333px;*/
-	margin: auto;
-	padding-top: 15px;
+	.icon_field{
+		max-width: 1000px;
+		display: flex;
+		justify-content: center;
+		justify-content: space-between;
+		justify-content: flex-start;
+		/*columns: 3 ;
+		grid-template-columns: 3 333px;*/
+		margin: auto;
+		padding-top: 15px;
 
-}
+	}
 
-.article{
-	margin: 5px;
-	text-align: center;
+	.article{
+		margin: 5px;
+		text-align: center;
 
-}
+	}
