@@ -116,7 +116,7 @@ span{
 	font-weight: bold;
 }
 .email_field{
-	background-color: orange;
+	background-color: rgb(229,126,67);
 	height: 40px;
 	margin: auto;
 	padding-top: auto;
@@ -124,7 +124,7 @@ span{
 	justify-content: center;
 
 	}
-	.conteiner_email{}
+	
 
 		.navigation_email{
 		display: flex;
