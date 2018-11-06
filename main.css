@@ -53,18 +53,21 @@ ol{
 }
 
 .introduction{
+	
+	justify-content: center;
+	padding-top: 35px;
+}	
+.introduction_background{
 	background-image: url("strona/zdjecie bg1.jpg");
 	background-position: center; /* Center the image */
 	background-repeat: no-repeat; /* Do not repeat the image */
 	background-size: cover; /* Resize the background image to cover the entire container */
 	position: relative;
 	background-color: lightgrey;
-	justify-content: center;
-	padding-top: 35px;
-}	
+}
 .intro_title{
 	font-size: 25px;
-	color: darkblue;
+	color: rgb(42, 91, 107);
 	font-weight: bold;
 }
 
@@ -74,7 +77,8 @@ ol{
 	max-width: 500px;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	margin-right: 20px;
+	margin-right: 50px;
+	margin-left: 0px;
 	padding: 40px 0px;
 }
 .info_paragraph{
@@ -152,7 +156,7 @@ span{
 
 				.email_input_button{
 				color: white;
-				background-color: darkblue;
+				background-color:rgb(42, 91, 107);
 				border: 0.5px solid black;
 				border-radius: 4px;
 				box-shadow: 2px 2px 1px rgb(49, 52, 60);
@@ -160,25 +164,43 @@ span{
 
 .presentation {
 	font: 17px bold ;
-	color: darkblue;
+	color: rgb(42, 91, 107);
 	margin: auto;
-	padding: auto;
+	padding-top: 40px;
+	padding-bottom: 0px;
 	text-align: center;
 	
 	}
 
 	.icon_field{
-		max-width: 1000px;
+		max-width: 280px;
 		display: flex;
+		flex-direction: column;
 		justify-content: center;
 		justify-content: space-between;
 		justify-content: flex-start;
 		margin: auto;
-		padding-top: 15px;
+		padding: 20px 0px;
+	}
+	.icon{
+		padding: 0px 0px;
+	}
+	.icon_signature{
+		padding: 0px 0px;
+		color: rgb(229,126,67);
 	}
 
 	.article{
 		margin: 5px;
 		text-align: center;
+		color: rgb(42, 91, 107);
+		padding: 5px 5px;
 
 	}
+.presentation_background1{
+	background: url("strona/pattern.png") top left repeat;
+	/*background-repeat: repeat; /* Do  repeat the image */
+	background-size: auto;
+	background-color: lightgrey;
+
+}
