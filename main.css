@@ -18,10 +18,8 @@ header{
 
 .container{
 	display: flex;
-	align-items: center;
 	max-width: 1000px;
 	margin: auto;
-
 }
 .logo, .navigation{
 	flex: 1;
@@ -30,8 +28,7 @@ header{
 	list-style: none;
 	padding: 0;
 	display: flex;
-	justify-content: flex-end;
-	
+	justify-content: flex-end;	
 }
 
 ol{
@@ -157,7 +154,6 @@ span{
 				.email_input_button{
 				color: white;
 				background-color:rgb(42, 91, 107);
-				border: 0.5px solid black;
 				border-radius: 4px;
 				box-shadow: 2px 2px 1px rgb(49, 52, 60);
 				}
@@ -190,17 +186,71 @@ span{
 		color: rgb(229,126,67);
 	}
 
-	.article{
-		margin: 5px;
-		text-align: center;
-		color: rgb(42, 91, 107);
-		padding: 5px 5px;
-
-	}
-.presentation_background1{
+.presentation_background{
 	background: url("strona/pattern.png") top left repeat;
 	/*background-repeat: repeat; /* Do  repeat the image */
 	background-size: auto;
-	background-color: lightgrey;
+	background-color: lightgrey;		
+	}
+	.pic_field{
+		padding-top: 50px;
+		padding-right: 30px;
+		padding-bottom: 40px;	
+	}
+	.pic1{
+		width: 340px;
+		height: 260;
+		border: 4px solid rgb(229,126,67);
+		margin-top: 20px;
+		margin-left: 60px;
+	}
 
+	.presentation_intro{
+		display: flex;
+		flex-direction: column;
+		margin-left: 65px;
+		font-size: 20px;
+		font-weight: bold;
+		font-family: 'Arial Narrow', Arial, sans-serif;
+		text-align: left;
+		color: rgb(42, 91, 107);
+		padding-left: 40px; 
+		margin: 0px 0px;	
+	}
+		.presentation_list_title{
+				margin-left: 20px;	
+		}
+.referencje_background{
+	background-image: url("strona/zdjecie bg2.jpg");
+	background-position: center; /* Center the image */
+	background-repeat: no-repeat; /* Do not repeat the image */
+	background-size: cover; /* Resize the background image to cover the entire container */
+	position: relative;
+	background-color: lightgrey;
 }
+	.referencje_field{
+		margin: 20px 170px;
+	}
+	.avatar_signature{
+		font-weight: bold;
+	}
+	.avatar_span{
+		font-style: italic;
+		font-weight: lighter;
+	}
+	.referencje_text{
+		margin-right: 150px;
+		text-align: left;
+	}
+	.ref_text{
+		color: rgb(229,126,67);
+		font: 45px bold ;
+		font-family: 'Times New Roman', Times, serif;
+	}
+	.referencje_start{
+		transform:rotate(180deg);
+		text-align: right;
+	}
+	.referencje_end{
+		text-align: right;
+	}
