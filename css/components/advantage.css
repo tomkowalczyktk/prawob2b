@@ -1,0 +1,17 @@
+.advantage {
+  display: flex;
+  flex-direction: column;
+}
+.advantage .advantage--icon {
+  text-align: center;
+}
+.advantage .advantage--title {
+  color: rgb(229,126,67);
+  margin-bottom: 20px;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-align: center;
+}
+.advantage .advantage--description {
+  text-align: center;
+}

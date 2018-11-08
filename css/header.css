@@ -1,0 +1,27 @@
+header {
+  background-color: rgb(42, 91, 107);
+  color: white;
+}
+
+.logo {
+  height: 60px;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.navigation {
+  display: flex;
+}
+
+.navigation li {
+  margin-right: 10px;
+  display: block;
+}
+
+.navigation li:last-of-type {
+  margin-right: 0;
+}

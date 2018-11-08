@@ -1,0 +1,26 @@
+.btn {
+  border-radius: 5px;
+  padding: 8px 10px;
+  border: 0;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+a.btn, a.btn {
+  text-decoration: none;
+}
+
+.btn.btn__primary {
+  background-color: rgb(42, 91, 107);
+  color: #fff;
+}
+
+.btn.btn__navigation {
+  background-color: #fff; 
+  color: rgb(42, 91, 107);
+}
+
+.btn.btn__cta {
+  background-color: rgb(229, 126, 67);
+  color: #fff;
+}
