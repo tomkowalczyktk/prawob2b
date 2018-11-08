@@ -109,10 +109,6 @@ ol{
 	
 }
 
-h1,p,a{
-	max-width: 1000px;
-	margin: auto;
-}
 span{
 	font-weight: bold;
 }
@@ -192,6 +188,14 @@ span{
 	background-size: auto;
 	background-color: lightgrey;		
 	}
+	.presentation_h1{
+		max-width: 1000px;
+		margin: auto;
+	}
+	.presentation_p{
+		max-width: 1000px;
+		margin: auto;
+	}
 	.pic_field{
 		padding-top: 50px;
 		padding-right: 30px;
@@ -206,8 +210,6 @@ span{
 	}
 
 	.presentation_intro{
-		display: flex;
-		flex-direction: column;
 		margin-left: 65px;
 		font-size: 20px;
 		font-weight: bold;
@@ -215,10 +217,20 @@ span{
 		text-align: left;
 		color: rgb(42, 91, 107);
 		padding-left: 40px; 
-		margin: 0px 0px;	
+		margin: auto;	
 	}
 		.presentation_list_title{
-				margin-left: 20px;	
+			margin: auto;
+			padding-left: 20px;
+		}
+		.presentation_intro_list{
+			margin: auto;
+			padding-left: 40px;
+			list-style-type: circle;
+		}
+		.presentation_li_p{
+			margin: auto;
+			marker: circle;
 		}
 .referencje_background{
 	background-image: url("strona/zdjecie bg2.jpg");
@@ -228,6 +240,14 @@ span{
 	position: relative;
 	background-color: lightgrey;
 }
+	.ref_head{
+		max-width: 1000px;
+		margin: auto;
+	}
+	.ref_p{
+		max-width: 1000px;
+		margin: auto;
+	}
 	.referencje_field{
 		margin: 20px 170px;
 	}
@@ -246,11 +266,17 @@ span{
 		color: rgb(229,126,67);
 		font: 45px bold ;
 		font-family: 'Times New Roman', Times, serif;
+		margin: auto;
 	}
 	.referencje_start{
 		transform:rotate(180deg);
 		text-align: right;
+		margin: 0px;
+	}
+	.clients_ref{
+		margin: auto;
 	}
 	.referencje_end{
 		text-align: right;
+		margin: auto;
 	}
