@@ -1,0 +1,25 @@
+.container {
+  max-width: 1000px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: auto;
+}
+
+.container-fluid {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.columns {
+  display: flex;
+  flex-direction: row;
+}
+
+.columns > .col {
+  flex: 1;
+  margin-right: 15px
+}
+
+.columns > .col:last-of-type {
+  margin-right: 0;
+}

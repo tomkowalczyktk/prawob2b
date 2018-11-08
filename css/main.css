@@ -1,4 +1,36 @@
 .youtube-placeholder {
   min-height: 10em;
-  background: #eee;
+  background: #ddd;
+}
+
+/* 
+blue - rgb(42, 91, 107)
+orange = rgb(229,126,67)
+*/
+
+
+.responsive-image {
+  max-width: 100%;
+}
+
+
+.section__main {
+  background-color: #eee;
+}
+
+
+.section__main, .section__about {
+  background-color: #eee;
+}
+
+.section__lead {
+  background-color: rgb(229,126,67);
+  color: #fff;
+  padding: 15px 0;
+}
+
+.lead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
